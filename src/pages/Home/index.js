@@ -12,7 +12,7 @@ function Home() {
         </div>
         <div className="main-content">
           <div className="aside-left">
-            <img className="mackup-celular" src={mockup} alt="Mockup" />
+            <img className="mackup-celular" src={mockup} alt="Mockup" loading="lazy" />
           </div>
           <div className="aside-right">
             <p className="font-title text-center">
