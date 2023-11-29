@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
 import mockup from "../../assets/mockup-celular.svg";
+import AndroidAPk from "../../app-universal-debug.apk";
 
 function Home() {
   return (
@@ -26,8 +27,9 @@ function Home() {
             </p>
             <a
               className="btn-download"
-              href="app-universal-release.apk"
+              href={AndroidAPk}
               target="_blank"
+              rel="noopener noreferrer"
               download
             >
               baixar para android (BETA)
