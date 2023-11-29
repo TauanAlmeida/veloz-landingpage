@@ -12,14 +12,26 @@ function Home() {
         </div>
         <div className="main-content">
           <div className="aside-left">
-            <img className="mackup-celular" src={mockup} alt="Mockup" loading="lazy" />
+            <img
+              className="mackup-celular"
+              src={mockup}
+              alt="Mockup"
+              loading="lazy"
+            />
           </div>
           <div className="aside-right">
             <p className="font-title text-center">
               Aumente sua perfomance com segurança, tecnologia e acompanhamento
               de profissionais.
             </p>
-            <a className="btn-download" href="app-universal-release.apk" target="_blank" download>baixar para android</a>
+            <a
+              className="btn-download"
+              href="app-universal-release.apk"
+              target="_blank"
+              download
+            >
+              baixar para android (BETA)
+            </a>
             <button className="btn-disabled">baixar para ios (em breve)</button>
           </div>
         </div>
