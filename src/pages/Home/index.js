@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
 import mockup from "../../assets/mockup-celular.svg";
-import AndroidAPk from "../../app-universal-debug.apk";
+import AndroidAPk from "../../app-universal-release.apk";
 
 function Home() {
   return (
